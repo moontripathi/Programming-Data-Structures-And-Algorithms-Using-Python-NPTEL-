@@ -8,7 +8,7 @@ def remdup(list_1):
             list_2.append(i)
         else:
             continue
-    print(list_2)
+    return list_2
 
 #function 2 
 def sumsquare(list1):
@@ -21,7 +21,7 @@ def sumsquare(list1):
     list2=[]
     list2.append(odd1)
     list2.append(even1)
-    print(list2)
+    return list2
 
 #function 3 
 def transpose(m):
@@ -30,4 +30,4 @@ def transpose(m):
     for i in range(0,len(m)):
         for j in range(0,len(m[i])):
             new[j][i]=m[i][j]
-    print(new)
+    return new
